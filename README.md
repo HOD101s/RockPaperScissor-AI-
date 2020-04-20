@@ -1,5 +1,5 @@
 # Building a Rock Paper Scissor AI with Neural Networks
-<center><img align="middle" src = "https://i.pinimg.com/originals/e5/46/df/e546dfb66ff4bbd1ba609ddf8c318f1b.png"/></center>
+<div style="text-align:center"><img src = "https://i.pinimg.com/originals/e5/46/df/e546dfb66ff4bbd1ba609ddf8c318f1b.png"/></div>
 
 This Repo is aimed at beginers who want to try and build their own bots with ease. So lets begin!
 
@@ -15,7 +15,9 @@ This will essentialy make a folder of name label and store (endIndex-startIndex+
 
 ## Training our Model
 Next we move to training our model. Here we have used the DenseNet model available from keras.applications as a base model to work upon. It is followed by a MaxPooling Layer which is Flattened and finally run through a Dense Layer with 3 Output Neurons and SoftMax Activation to predict our output from 3 Classes Rock, Paper and Scissor.
-Here we have trai.py which is run like this
+Here we have trai.py which is run like this <br>
+<div style="text-align:center"><img src = "https://user-images.githubusercontent.com/37273226/79741167-6e3d7380-831e-11ea-8e26-8e2f000568a0.png"/></div>
+
 
 ```
 python train.py pathToImages
