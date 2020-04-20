@@ -1,4 +1,4 @@
-#Building a Rock Paper Scissor AI with Neural Networks
+# Building a Rock Paper Scissor AI with Neural Networks
 <p align="center"><img src = "https://i.pinimg.com/originals/e5/46/df/e546dfb66ff4bbd1ba609ddf8c318f1b.png"/></p>
 
 This Repo is aimed at beginers who want to try and build their own bots with ease. So lets begin!
