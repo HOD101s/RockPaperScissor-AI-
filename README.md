@@ -1,5 +1,5 @@
-# Building a Rock Paper Scissor AI with Neural Networks
-<div style="text-align:center"><img src = "https://i.pinimg.com/originals/e5/46/df/e546dfb66ff4bbd1ba609ddf8c318f1b.png"/></div>
+#Building a Rock Paper Scissor AI with Neural Networks
+<p align="center"><img src = "https://i.pinimg.com/originals/e5/46/df/e546dfb66ff4bbd1ba609ddf8c318f1b.png"/></p>
 
 This Repo is aimed at beginers who want to try and build their own bots with ease. So lets begin!
 
@@ -16,7 +16,7 @@ This will essentialy make a folder of name label and store (endIndex-startIndex+
 ## Training our Model
 Next we move to training our model. Here we have used the DenseNet model available from keras.applications as a base model to work upon. It is followed by a MaxPooling Layer which is Flattened and finally run through a Dense Layer with 3 Output Neurons and SoftMax Activation to predict our output from 3 Classes Rock, Paper and Scissor.
 Here we have trai.py which is run like this <br>
-<div style="text-align:center"><img src = "https://user-images.githubusercontent.com/37273226/79741167-6e3d7380-831e-11ea-8e26-8e2f000568a0.png"/></div>
+<p align="center"><img src = "https://user-images.githubusercontent.com/37273226/79741167-6e3d7380-831e-11ea-8e26-8e2f000568a0.png"/></p>
 
 
 ```
@@ -36,13 +36,13 @@ python play.py
 ```
 
 ## In-Game Snapshots
-<div style="text-align:center"><img src = "https://user-images.githubusercontent.com/37273226/79742539-95954000-8320-11ea-8b79-bff883454617.PNG"/></div>
+<p align="center"><img src = "https://user-images.githubusercontent.com/37273226/79742539-95954000-8320-11ea-8b79-bff883454617.PNG"/></p>
 <br>Making Predictions In the Game :<br>
-<div style="text-align:center"><img src = "https://user-images.githubusercontent.com/37273226/79742699-dbea9f00-8320-11ea-87fb-3ba3f8a9a760.PNG"/></div>
+<p align="center"><img src = "https://user-images.githubusercontent.com/37273226/79742699-dbea9f00-8320-11ea-87fb-3ba3f8a9a760.PNG"/></p>
 <br>Bot Playing and Score Updates<br>
-<div style="text-align:center"><img src = "https://user-images.githubusercontent.com/37273226/79742843-148a7880-8321-11ea-838a-0d361a39f436.PNG"/></div>
+<p align="center"><img src = "https://user-images.githubusercontent.com/37273226/79742843-148a7880-8321-11ea-838a-0d361a39f436.PNG"/></p>
 <br>Final Outcome<br>
-<div style="text-align:center"><img src = "https://user-images.githubusercontent.com/37273226/79742889-2c61fc80-8321-11ea-99ef-b55fbff4911c.PNG"/></div>
+<p align="center"><img src = "https://user-images.githubusercontent.com/37273226/79742889-2c61fc80-8321-11ea-99ef-b55fbff4911c.PNG"/></p>
 
 ## Requirements
 - tensorflow
@@ -50,6 +50,4 @@ python play.py
 - opencv
 
 ## Notes:
-This is a very basic model that simply tries to make predictions on the input image without any major preprocessing but is enough if you play in the same physical position. 
-If you're new at this try chaning your Dataset and re-train your model multiple times would really help you gain better insights into the project.
-
+This model works with staionary backgrounds against which Model has been trained. We could implement Hand Detection followed by Gesture Classifation to improve performance. This is a very basic model that simply tries to make predictions on the input image without any major preprocessing but is enough if you play in the same physical position. If you're new at this try chaning your Dataset and re-train your model multiple times would really help you gain better insights into the project.
