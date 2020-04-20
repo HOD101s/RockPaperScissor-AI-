@@ -24,6 +24,7 @@ python train.py pathToImages
 ```
 
 This will iterate over the files produced by getData.py and train our Model. Once trained the Model architecture is stored in a json file and the weights are stored in .h5 file.
+Due to lack of computational power I had to train the model using Google Colab by setting Hardware Accelration to GPU.
 
 ## Time to play!
 Now we load our Model Architecture and weights and finally play the game. Refer play.py
@@ -34,9 +35,19 @@ To Run:
 python play.py
 ```
 
+## In-Game Snapshots
+<div style="text-align:center"><img src = "https://user-images.githubusercontent.com/37273226/79742539-95954000-8320-11ea-8b79-bff883454617.PNG"/></div>
+<br>Making Predictions In the Game :<br>
+<div style="text-align:center"><img src = "https://user-images.githubusercontent.com/37273226/79742699-dbea9f00-8320-11ea-87fb-3ba3f8a9a760.PNG"/></div>
+<br>Bot Playing and Score Updates<br>
+<div style="text-align:center"><img src = "https://user-images.githubusercontent.com/37273226/79742843-148a7880-8321-11ea-838a-0d361a39f436.PNG"/></div>
+<br>Final Outcome<br>
+<div style="text-align:center"><img src = "https://user-images.githubusercontent.com/37273226/79742889-2c61fc80-8321-11ea-99ef-b55fbff4911c.PNG"/></div>
+
 ## Requirements
 - tensorflow
 - keras
+- opencv
 
 ## Notes:
 This is a very basic model that simply tries to make predictions on the input image without any major preprocessing but is enough if you play in the same physical position. 
