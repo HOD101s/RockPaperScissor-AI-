@@ -5,7 +5,7 @@ import cv2
 import random
 
 def prepImg(pth):
-    return cv2.resize(pth,(224,224)).reshape(1,224,224,3)
+    return cv2.resize(pth,(300,300)).reshape(1,300,300,3)
 
 def updateScore(play,bplay,p,b):
     winRule = {'rock':'scissor','scissor':'paper','paper':'rock'}
